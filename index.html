@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid_box{
+            width: 500px;
+            height: 400px;
+            background-color: sienna;
+            color: 4px solid black;
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+            grid-template-rows: 60px 60px;
+            gap: 10px;
+        
+        }
+        .cd1{
+            background-image: linear-gradient(red,rgb(122, 128, 0), rgb(240, 240, 6),rgb(247, 22, 165));
+        background-size:cover;  
+            grid-column-start: 1;
+            grid-column-end: 4;
+            text-align: center;
+            font-size: 30px; 
+            
+           
+           
+        }
+
+        .cd2{
+            background-image: linear-gradient(rgb(245, 245, 42),green,orange,blue);
+        background-size:cover;  
+            grid-column-start: 1;
+            grid-column-end: 1;
+
+            grid-row-start: 2;
+            grid-row-end:5;
+            text-align: center; 
+            font-size: 30px;       
+        }
+        .cd3{
+            background-image: linear-gradient(lightpink,grey,orange);
+        background-size:cover;  
+            grid-column-start:2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end:4;
+            text-align: center;
+            font-size: 30px;       
+        }
+            
+           
+           
+        
+
+        .cd4{
+            background-image: linear-gradient(rgb(122, 128, 0),rgb(247, 22, 165));
+            background-size:cover;  
+            grid-column-start:2;
+            grid-column-end: 2;
+
+            grid-row-start: 4;
+            grid-row-end:4;
+            text-align: center;
+            color:black;
+            font-size: 30px;       
+        }
+           
+           
+        
+
+        .cd5{
+            background-image: linear-gradient(red, rgb(240, 240, 6),rgb(247, 22, 165));
+            background-size:cover;  
+            grid-column-start:3;
+            grid-column-end: 3;
+
+            grid-row-start: 4;
+            grid-row-end:4;
+            text-align: center;
+            color: black;
+            font-size: 30px;       
+        }
+           
+           
+    
+        .cd6{
+            background-image: linear-gradient(purple,red,yellow);
+            background-size:cover;  
+            grid-column-start: 1;
+            grid-column-end: 4;
+            text-align: center;
+            font-size: 30px; 
+        }
+
+    h1{
+        text-align: center;
+    
+    }
+
+
+    </style>
+
+</head>
+<body>
+
+
+
+    <div class="grid_box">
+        <div class=" cd1">HEADER
+
+        </div>
+        <div class="cd2">SIDEBAR
+
+        </div>
+        <div class="cd3">CONTENT-1
+
+        </div>
+        <div class="cd4">CONTENT-2
+
+        </div>
+        <div class="cd5">CONTENT-3
+
+        </div>
+        <div class=" cd6">FOOTER
+
+        </div>
+    </details>
+
+        
+
+    </div>
+
+
+    
+    
+
+    
+</body>
+</html>
